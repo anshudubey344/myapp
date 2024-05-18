@@ -1,4 +1,4 @@
-module github.com/yourusername/go-app
+module github.com/anshudubey344/myapp/go-app
 
 go 1.16
 

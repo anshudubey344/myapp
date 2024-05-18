@@ -3,5 +3,7 @@ WORKDIR /app
 COPY go.mod go.sum ./
 COPY . .
 RUN go mod download
-CMD ["/app","go", "run","main.go"]
+RUN go build -o myapp
+
+CMD ["./myapp"]
 
